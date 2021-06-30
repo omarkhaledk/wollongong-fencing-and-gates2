@@ -1,0 +1,45 @@
+    .container {
+        flex-grow: 1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-top: 55px;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+        max-height: 500px;
+        min-height: 300px;
+        background-size: cover;
+    }
+
+    .titleContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        color: #fff;
+        transition: none 0s ease 0s;
+        top: 32%;
+    }
+
+    .title {
+        font-weight: 600;
+        font-size: 60px;
+        font-family: auto;
+        font-size: 6vw;
+        margin-bottom: 24px;
+    }
+
+    .titleDescription {
+        font-size: 4vw;
+    }
+
+    @media (max-width: 768px) {
+
+        .titleContainer {
+            top: 40%;
+        }
+    }

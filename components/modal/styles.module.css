@@ -1,0 +1,67 @@
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContainer {
+    padding: 16px 0;
+    height: 95%;
+    width: 95%;
+    background-color: #fff;
+}
+
+.narrow {
+    height: auto;
+}
+
+.subContainer {
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 24px;
+    height: 100%;
+}
+
+.closeIconContainer {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 18px;
+    right: 38px;
+}
+
+.closeIcon {
+    background: #fff;
+    border-radius: 50%;
+}
+
+.hidden {
+    display: none;
+}
+
+/* For Phones */
+@media (max-width: 768px) {
+
+    .subContainer {
+        padding: 16px;
+    }
+
+    .closeIconContainer {
+        right: 0;
+    }
+}
+
+/* For Tablets */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .closeIconContainer {
+        top: 34px;
+        right: 20px;
+    }
+}
+
+/* For Laptops */
+@media (min-width: 1024px) {
+    .narrow {
+        max-width: 500px;
+    }
+}

@@ -1,0 +1,14 @@
+    .container {
+        text-align: center;
+    }
+
+    .title {
+        margin-bottom: 32px;
+    }
+
+    @media (max-width: 768px) {
+
+        .title {
+            margin-bottom: 24px;
+        }
+    }

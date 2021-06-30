@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.itemContainer {
+    width: 274px;
+    margin: 14px;
+}
+
+.icon {
+    width: 100px;
+}
+
+.dollarSignIcon {
+    width: 56px;
+}
+
+.title {
+    font-size: 2vw;
+    padding: 14px 0;
+    font-weight: 600;
+}
+
+@media (max-width: 767px) {
+
+    .itemContainer {
+        width: auto;
+        margin: 32px 0;
+    }
+
+    .title {
+        font-size: 5vw;
+    }
+}
